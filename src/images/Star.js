@@ -1,0 +1,12 @@
+import React from 'react'
+
+const Star = (props) => {
+  return (
+    <svg style={{cursor:"pointer"}} width="15" height="14" viewBox="0 0 15 14" fill={props.color} xmlns="http://www.w3.org/2000/svg">
+<path d="M7.5 1L9.34153 4.96535L13.6819 5.49139L10.4797 8.46815L11.3206 12.7586L7.5 10.633L3.6794 12.7586L4.52034 8.46815L1.31813 5.49139L5.65847 4.96535L7.5 1Z" stroke="#ABB4C2" stroke-width="1.2" stroke-linejoin="round"/>
+</svg>
+
+  )
+}
+
+export default Star

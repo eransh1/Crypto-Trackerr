@@ -1,0 +1,86 @@
+#CryptoItemCont{
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    z-index: 2;
+    background-color: rgb(0, 0, 0, .4);
+}
+.CryptoItemCont{
+    width: 400px;
+height: 375px;
+border-radius: 7px;
+background-color: white;
+padding: 1rem ;
+z-index: 4;
+}
+.top-title-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.cryto-img-contt{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.cryto-namee{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+color: #0F1629;
+margin: 0 .5rem;
+}
+.x-mark{
+    color: #808A9D;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.crypto-item-row{
+    margin: 0;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+.col-4{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.price-itemm,.h24-itemm,.h7-itemm,.market-cap-itemm,.volume-itemm,.circulating-supply-itemm{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+color: #0F1629;
+}
+.price-item-value,.h24-itemm-value,.h7-itemm-value,.market-cap-value,.volume-value,.circulating-supply-value{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+color: #0F1629;
+}
+.market-cap-roww,.volume-roww,.circulating-supply-roww{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column; 
+}
+.volume-value-span{
+    color: #768396;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: -0.035em;
+margin-left: .25rem;
+}

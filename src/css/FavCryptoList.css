@@ -1,0 +1,13 @@
+.noFavItem{
+    display: flex;
+    align-items: center;
+    place-content: center;
+    width: 100%;
+    min-height: 50vh;
+    padding:1rem;
+    color:#808A9D;
+    opacity: .5;
+}
+.trash:hover{
+    color: red;
+}

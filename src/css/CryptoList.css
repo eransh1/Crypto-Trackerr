@@ -1,0 +1,187 @@
+.crypto-list-row,.cryto-item{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 90%;
+    margin-left: 6rem;
+}
+.col-1,.col-2{
+display: flex;
+align-items: center;
+margin: 0;
+padding: 0;
+padding-left: .25rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+color: #000000;
+height: 45px;
+border-top: 1px solid #EFF2F5;
+border-bottom:1px solid #EFF2F5;
+display: flex;
+}
+.custom-col{
+    height: 90px!important;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+}
+.price-col{
+    width: 12%;
+}
+.calc-supply-col{
+    width: 13.5%;
+}
+.name-col{
+    width: 15%;
+}
+.option-col,.star-col,.number-col{
+    width: 3%;
+}
+.number{
+    color:#808A9D!important;
+}
+.cryto-img-cont{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+.crypto-img{
+    width: 100%;
+    height: 100%;
+}
+.cryto-name{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #222531;
+margin: 0 .5rem;
+}
+.crypto-abbv{
+    color: #808A9D;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+}
+.h24-col,.h7-col{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+}
+.down,.up{
+    margin-right: .45rem;
+}
+.volume-coll{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    place-content: center;
+}
+.volume{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: -0.035em;
+padding-bottom: .2rem;
+color: #000000;
+}
+.volume-as-per-btc{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: -0.035em;
+color: #000000;
+opacity: 0.5;
+padding-bottom: .2rem;
+}
+
+@media(max-width:1210px){
+    .crypto-list-row,.cryto-item{
+        width: 99%;
+        margin-left: 0;
+        padding-left: 1rem;
+    }
+    .option-col{
+        display: none;
+    }
+}
+@media(max-width:1040px){
+    .calc-supply-col{
+        display: none;
+    }
+    .h24-col,.h7-col {
+        width: 15%;
+    }
+}
+@media(max-width:880px){
+.volume-col,.volume-coll{
+    display: none;
+}
+
+.mkt-cap-col{
+    width: 20%;
+}
+.name-col,.price-col{
+    width: 20%;
+}
+.h24-col,.h7-col {
+    width: 13%;
+}
+.number-col{
+    width: 5%;
+}
+.star-col{
+    width: 5%;
+}
+}
+@media(max-width:790px){
+.mkt-cap-col{
+    display: none;
+}
+.name-col,.price-col{
+    width: 25%;
+}
+.h24-col,.h7-col {
+    width: 15%;
+}
+.number-col{
+    width: 7%;
+}
+.star-col{
+    width: 7%;
+}
+}
+@media(max-width:640px){
+    .h7-col {
+    display: none;
+    }
+    .name-col,.price-col{
+        width: 30%;
+    }
+    .number-col{
+        width: 9%;
+    }
+    .star-col{
+        width: 9%;
+    }
+    .price-col{
+display: flex;
+align-items: center;
+place-content: center;
+    }
+}
